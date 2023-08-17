@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+
+body{
+    margin: 0;
+    background-image: url(imagenes/fondotres.jpg);
+    background-color: black;
+    background-repeat:initial;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.active{
+    color:white;
+    text-decoration: underline;
+    font-weight: bold
+}
+.navbar{
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px;
+    color:black;
+
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+  }
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+  }
+  section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+  
+
+  .español{
+    font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  color: black;
+  position:relative;
+  text-shadow: 2px 2px 5px red;
+  }
+ 
+ 
+  .ingles{
+    font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  color: black;
+  position:relative;
+  text-shadow: 2px 2px 5px red;
+
+  }
+
+  p{
+  margin-left: 50px;
+  text-align:start;
+  font-family: 'IBM Plex Mono', monospace;
+  color: black;
+  }
+
+  .noticia{
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+    color: black;
+    position:relative;
+    text-shadow: 2px 2px 5px red;
+
+  }
+
+  button{
+    background:rgb(149, 204, 226);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 5px 2px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+  }

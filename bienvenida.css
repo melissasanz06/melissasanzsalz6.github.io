@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.active{
+    color:white;
+    text-decoration: underline;
+    font-weight: bold
+}
+.navbar{
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px;
+    color:black;
+    
+
+}
+
+.nav-links{
+    display:flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+
+}
+
+video{
+    position: fixed;
+
+    min-width:100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+}
+
+
+
